@@ -1,0 +1,23 @@
+# QuizWhiz_k12_v2 推理环境依赖
+
+# 核心框架
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.27.0
+
+# Tokenizer支持
+tokenizers>=0.15.0
+sentencepiece>=0.1.99
+
+# 量化支持 (可选)
+bitsandbytes>=0.43.0
+
+# 模型下载
+modelscope>=1.9.0
+
+# 工具库
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# 其他依赖
+safetensors>=0.4.0
